@@ -1,0 +1,33 @@
+{
+  "name": "Monet Expense Tracker",
+  "short_name": "Monet",
+  "description": "Minimalistic Material You expense tracker with launcher widget and Google Drive cloud sync.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121411",
+  "theme_color": "#386A20",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Expense",
+      "short_name": "Quick Add",
+      "description": "Quickly add a categorized expense",
+      "url": "/?quickadd=true",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Launcher Widget",
+      "short_name": "Widget",
+      "description": "Open standalone launcher widget",
+      "url": "/?widget=true",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

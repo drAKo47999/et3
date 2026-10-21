@@ -1,0 +1,6 @@
+{
+  "name": "Monet Expense Tracker",
+  "description": "Minimalistic Material You expense tracker with dynamic themes, launcher widget, customizable date filters, and Google Drive cloud sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

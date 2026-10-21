@@ -1,0 +1,11 @@
+{
+  "appId": "com.monet.expensetracker",
+  "appName": "Monet Expense Tracker",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
